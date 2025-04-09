@@ -1,0 +1,65 @@
+
+.hero {
+    background: url('samuel-ferrara-1527pjeb6jg-unsplash.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-attachment: scroll;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-text {
+    font-size: 6em;
+    margin: 0;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.hero-subtext {
+    font-size: 2em;
+    animation: fadeInUp 2s;
+}
+
+.hero-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border: 3px solid #3F51B5;
+    padding: 15px 30px;
+    color: #3F51B5;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #3F51B5;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 3px solid #3F51B5;
+    padding: 15px 30px;
+    color: #3F51B5;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #3F51B5;
+    color: white;
+}
